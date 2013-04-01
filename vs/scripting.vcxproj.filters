@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{A1AEF90B-B5F5-2041-8C72-A0CD8A3CDB1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scripting">
+      <UniqueIdentifier>{9B321086-1DE3-A242-9297-E71F32CC0246}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\scripting\Actions.h">
+      <Filter>src\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scripting\Conditions.h">
+      <Filter>src\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scripting\Precompiled.h">
+      <Filter>src\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scripting\Scripting.h">
+      <Filter>src\scripting</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\scripting\Actions.c">
+      <Filter>src\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scripting\Conditions.c">
+      <Filter>src\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scripting\main.c">
+      <Filter>src\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scripting\Precompiled.c">
+      <Filter>src\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scripting\Scripting.c">
+      <Filter>src\scripting</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

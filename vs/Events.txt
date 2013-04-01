@@ -1,0 +1,14 @@
+Conditions
+  Always
+Actions
+  Print "Printing from action #1."
+
+Conditions
+  TimeElapsed 5
+Actions
+  Print "Printing from action #2. Waited five seconds."
+  
+Conditions
+  TimeElapsed 10
+Actions
+  Print "Printing from action #3. Waited ten seconds."
